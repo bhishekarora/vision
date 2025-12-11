@@ -3,9 +3,9 @@
 set -euo pipefail
 
 REPO_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
-REMOTE="${SYNC_REMOTE:-git@github.com:bhishekarora/vision.git}"
+REMOTE="${SYNC_REMOTE:-https://github.com/bhishekarora/vision.git}"
 BRANCH="${SYNC_BRANCH:-main}"
-MESSAGE="${1:-Sync: $(date -u "+%Y-%m-%d %H:%M:%SZ")}"
+MESSAGE="${SYNC_MESSAGE:-Code updated}"
 
 cd "$REPO_ROOT"
 

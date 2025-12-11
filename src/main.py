@@ -321,7 +321,7 @@ def main() -> int:
                         cv2.FONT_HERSHEY_SIMPLEX,
                         0.5,
                         color,
-                        2,
+                        2, 
                     )
                 cv2.imshow("Vision Object Detection", frame)
                 if cv2.waitKey(1) & 0xFF == ord("q"):

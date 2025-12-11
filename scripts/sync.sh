@@ -8,7 +8,7 @@ BRANCH="${SYNC_BRANCH:-main}"
 MESSAGE="${SYNC_MESSAGE:-Code updated}"
 
 cd "$REPO_ROOT"
-
+ 
 git init >/dev/null 2>&1 || true
 
 if git rev-parse --verify "$BRANCH" >/dev/null 2>&1; then

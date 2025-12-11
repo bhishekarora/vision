@@ -1,4 +1,4 @@
-# Vision Object Detection Demo
+# Vision Object Detection 
 
 This is a minimal OpenCV project that opens your default webcam, runs a YOLOv5 nano object detector (with an optional face detector), and prints the top detections for every frame to the console. The project lazily downloads the required model files the first time you run it.
 
